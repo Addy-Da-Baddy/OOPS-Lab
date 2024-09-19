@@ -1,4 +1,4 @@
-# Repo containing all codes for OOP Lab (Sem II CCE)
+# Repo containing all codes for OOP Lab (Sem III CCE)
 
 1. **Lab 1: Introduction to OOPs**
 2. **Lab 2: Java Data Types, Type Conversions, Operators, Control Statements**
