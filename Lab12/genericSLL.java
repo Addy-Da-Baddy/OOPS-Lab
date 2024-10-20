@@ -44,17 +44,6 @@ class GenericSinglyLinkedList<T> {
         System.out.println("null");
     }
 
-    public T remove() {
-        if (head == null) {
-            System.out.println("List is empty.");
-            return null;
-        }
-        T data = head.data;
-        head = head.next;
-        return data;
-    }
-}
-
 public class genericSLL {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -70,8 +59,7 @@ public class genericSLL {
         System.out.println("Integer Linked List:");
         intList.display();
 
-        System.out.println("Removed element: " + intList.remove());
-        intList.display();
+
 
         GenericSinglyLinkedList<Double> doubleList = new GenericSinglyLinkedList<>();
         System.out.print("Enter number of doubles: ");
@@ -83,7 +71,6 @@ public class genericSLL {
         System.out.println("Double Linked List:");
         doubleList.display();
 
-        System.out.println("Removed element: " + doubleList.remove());
-        doubleList.display();
+  
     }
 }
