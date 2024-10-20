@@ -44,11 +44,9 @@ class GenericSinglyLinkedList<T> {
         System.out.println("null");
     }
 
-public class genericSLL {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Linked list of Integers
         GenericSinglyLinkedList<Integer> intList = new GenericSinglyLinkedList<>();
         System.out.print("Enter number of integers: ");
         int n = scanner.nextInt();
@@ -59,8 +57,6 @@ public class genericSLL {
         System.out.println("Integer Linked List:");
         intList.display();
 
-
-
         GenericSinglyLinkedList<Double> doubleList = new GenericSinglyLinkedList<>();
         System.out.print("Enter number of doubles: ");
         int m = scanner.nextInt();
@@ -70,7 +66,5 @@ public class genericSLL {
         }
         System.out.println("Double Linked List:");
         doubleList.display();
-
-  
     }
 }
